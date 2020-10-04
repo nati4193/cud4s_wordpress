@@ -1,0 +1,68 @@
+/*
+ * Font Name: Anuphan
+ */
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan.woff2") format("woff2"),
+    url("../fonts/anuphan/anuphan.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan-medium.woff2") format("woff2"),
+    url("../fonts/anuphan/anuphan-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Anuphan";
+  src: url("../fonts/anuphan/anuphan-bold.woff2") format("woff2"),
+    url("../fonts/anuphan/anuphan-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Font Name: Maledpan
+ */
+@font-face {
+  font-family: "Maledpan";
+  src: url("../fonts/maledpan/maledpan.woff2") format("woff2"),
+    url("../fonts/maledpan/maledpan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Maledpan";
+  src: url("../fonts/maledpan/maledpan-bold.woff2") format("woff2"),
+    url("../fonts/maledpan/maledpan-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+ * Font name: Sarabun
+ */
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"), url("../fonts/sarabun/sarabun.woff2") format("woff2"),
+    url("../fonts/sarabun/sarabun.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Sarabun";
+  src: local("Sarabun"),
+    url("../fonts/sarabun/sarabun-bold.woff2") format("woff2"),
+    url("../fonts/sarabun/sarabun-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
