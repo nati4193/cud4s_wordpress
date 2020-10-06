@@ -1,0 +1,92 @@
+{
+    "key": "group_5f7b6e900870c",
+    "title": "Project templete",
+    "fields": [
+        {
+            "key": "field_5f7b6ea0bace2",
+            "label": "Project name",
+            "name": "project_name",
+            "type": "text",
+            "instructions": "insert project name here",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f7b6f06bace3",
+            "label": "Project description",
+            "name": "project_description",
+            "type": "textarea",
+            "instructions": "insert project detail here",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f7b6f2fbace4",
+            "label": "Project Update",
+            "name": "project_update",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "post_type": [
+                "post"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "object",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:project-th"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "excerpt",
+        "slug",
+        "categories",
+        "tags"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1601925376
+}
